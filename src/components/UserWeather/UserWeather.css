@@ -1,0 +1,110 @@
+#main {
+    height:100%;
+    /* border:1px solid black; */
+    width:50%;
+    display:flex;
+    justify-content: center;
+}
+#location {
+    text-align: center;
+    height:fit-content;
+    width:fit-content;
+    place-self: center;
+    font-family: helvetica;
+    display:flex;
+    flex-direction: column;
+}
+#l-sub {
+    height:fit-content;
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    place-self: center;
+}
+#location-icon {
+    border:0.5px solid black;
+    height: 26px;
+    width: 20px;
+}
+#ltext {
+    font-size: 25px;
+    font-weight: 900;
+    color:rgb(106, 125, 143);
+}
+#date-text {
+    font-size: 15px;
+    font-weight: 600;
+    color:#7385b5;
+    margin-top: -12px;
+}
+#main-info {
+    height:200px;
+    width:250px;
+    place-self: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius:20px;
+    background-color:rgb(98, 115, 211) ;
+    background: linear-gradient(to left, rgb(188, 195, 240), rgb(98, 115, 211));
+    color:white;
+    font-family: helvetica;
+    box-shadow:0px 20px 30px rgba(37, 37, 37, 0.747);
+}
+#more-info {
+    height:100px;
+    width:350px;
+    place-self: center;
+    border-radius:20px;
+    box-shadow:0px 20px 30px rgba(37, 37, 37, 0.747);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.more-info-sub {
+    height:90%;
+    width:25%;
+    margin-top: 2%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: helvetica;
+    color:rgb(106, 125, 143);
+}
+.mi-icon {
+    height:40px;
+    width:50px;
+    border:1px solid black;
+    place-self: center;
+}
+.mi-val {
+  font-weight: 600;
+  font-size: 17px;
+}
+.mi-text {
+    font-size:14px;
+}
+#sub-main {
+    display:flex;
+    flex-direction: column;
+    place-content: center;
+}
+.sub-m {
+    height:50%;
+    width:100%;
+}
+#sub-mm {
+    display:flex;
+    justify-content: space-around;
+}
+#temp {
+    font-size:70px;
+    font-weight: 600;
+    font-family: helvetica;
+    margin-left: 10px;
+}
+#w-image {
+    height:80px;
+    width:50%;
+    border:1px solid black;
+}

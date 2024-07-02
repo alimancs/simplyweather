@@ -1,0 +1,23 @@
+#bg {
+    background-color: rgb(255, 255, 255);
+    height:100%;
+    width:100%;
+    float:left;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+}
+#yellowpad {
+    height:70%;
+    width:100%;
+    background-color: rgb(247, 224, 19);
+    position: fixed;
+    bottom: -35%;
+    left:0;
+    right:0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}

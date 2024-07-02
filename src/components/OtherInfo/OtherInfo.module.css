@@ -1,0 +1,65 @@
+#main {
+    height:100%;
+    /* border:1px solid black; */
+    width:50%;
+}
+#subMain {
+    height:98%;
+    width:95%;
+    margin-top: 1.5%;
+    background-color: white;
+    box-shadow:0px 20px 30px rgba(37, 37, 37, 0.747);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.half {
+    border:1px solid black;
+    width: 95%;
+    height:45%;
+    place-self: center;
+}
+.otherTitle {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: helvetica;
+    margin-left: 2.5%;
+    color:#7385b5;
+}
+.days {
+    border:1px solid white;
+    height: 45%;
+    width:20%;
+    border-radius: 10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(98, 115, 211) ;
+    background: linear-gradient(to left, rgb(188, 195, 240), rgb(98, 115, 211));
+    font-family: helvetica;
+    margin-left: 3%;
+}
+.dayIcon {
+    height:40%;
+    width:55%;
+    border:1px solid;
+    place-self: center;
+}
+.dayTitle {
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.dayTemp {
+    color:white;
+    font-size: 23px;
+    font-weight: 600;
+}
+#otherTop {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:0px;
+}
