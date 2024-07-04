@@ -10,6 +10,13 @@ function OtherInfo() {
         {day:'Sat',temp:'-1 ℃'},
         {day:'Sun',temp:'34 ℃'},
     ]
+    const locationAndData = [
+        {location:'USA', info:'rainy', windspeed:'20 km/h', humidity:'10%'},
+        {location:'USA', info:'rainy', windspeed:'20 km/h', humidity:'10%'},
+        {location:'USA', info:'rainy', windspeed:'20 km/h', humidity:'10%'},
+        {location:'USA', info:'rainy', windspeed:'20 km/h', humidity:'10%'},
+        {location:'USA', info:'rainy', windspeed:'20 km/h', humidity:'10%'},
+    ]
     return (
         <div id={styles.main}>
             <div id={styles.subMain}>
@@ -26,7 +33,21 @@ function OtherInfo() {
                         )
                     })}
                 </div>
-                <div className={styles.half}></div>
+                <span className={styles.otherTitle}>Other cities</span>
+                <div className={styles.half}>
+                    {locationAndData.map((data)=>{
+                        return (
+                        <div className={styles.otherLocations}>
+                            <span className={styles.olTxt}>{data.location}</span>
+                            <div className={styles.subBox}>
+                                <div className={styles.olIcon}></div>
+                                <span className={styles.olW}>{data.info}</span>
+                            </div>
+                            <span className={styles.wI}>Wind speed: {data.windspeed}/ Humidity :{data.humidity}</span>
+                        </div>  
+                        )
+                    })}
+                </div>
             </div>
         </div>
     );
