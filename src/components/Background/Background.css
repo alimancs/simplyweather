@@ -21,3 +21,9 @@
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
 }
+
+@media (max-width:1024px) {
+    #yellowpad {
+        display:none;
+    }
+}

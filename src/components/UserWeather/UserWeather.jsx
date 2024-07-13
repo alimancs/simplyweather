@@ -1,6 +1,7 @@
 import './UserWeather.css';
+import MobileOtherInfo from '../MobileOtherInfo/MobileOtherInfo';
 
-function UserWeather() {
+function UserWeather(props) {
     return (
        <div id='main'>
            <div id='sub-main'>
@@ -38,7 +39,8 @@ function UserWeather() {
                         <span className='mi-text'>Humidity</span>
                     </div>
                 </div>
-        </div>
+            </div>
+            <MobileOtherInfo daysNdata={props.daysAndData} locationNdata={props.locationAndData}></MobileOtherInfo>
        </div>
     );
 };

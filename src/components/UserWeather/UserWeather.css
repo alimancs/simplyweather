@@ -108,3 +108,14 @@
     width:50%;
     border:1px solid black;
 }
+@media (max-width:1024px) {
+    #main {
+        width:100%;
+        place-self: center;
+        flex-direction: column;
+    }
+    #sub-main {
+        height:55%;
+        width:100%;
+    }
+}

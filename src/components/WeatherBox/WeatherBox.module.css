@@ -1,0 +1,42 @@
+.days {
+    border:1px solid white;
+    height: 45%;
+    width:20%;
+    border-radius: 10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(98, 115, 211) ;
+    background: linear-gradient(to left, rgb(188, 195, 240), rgb(98, 115, 211));
+    font-family: helvetica;
+    margin-left: 3%;
+}
+.dayIcon {
+    height:40%;
+    width:55%;
+    place-self: center;
+    border:1px solid;
+}
+.dayTitle {
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.dayTemp {
+    color:white;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media (max-width:1024px) {
+    .days {
+        height:90%;
+        width:115px;
+        margin-top: 2%;
+        display: inline-flex;
+    }
+    .dayIcon {
+        width:70%;
+        height:60px;
+    }
+}

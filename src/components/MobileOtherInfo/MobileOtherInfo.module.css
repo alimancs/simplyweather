@@ -1,0 +1,31 @@
+.main {
+    height:45%;
+    width:100%;
+}
+.otherTop {
+    height:65%;
+    width:100%;
+}
+.otherBtm {
+    height:35%;
+    width:100%;
+    border:1px solid;
+}
+.otherTitle {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: helvetica;
+    margin-left: 2.5%;
+    color:#7385b5;
+}
+.sdcontainer {
+    width:100%;
+    height:80%;
+    overflow: auto;
+    white-space: nowrap;
+}
+@media (min-width:1025px) {
+    .main {
+        display: none;
+    }
+}
